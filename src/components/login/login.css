@@ -1,0 +1,108 @@
+*{
+    font-family: 'Dosis', sans-serif;
+}
+
+.container-login{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background: rgb(232,206,77);
+    background: linear-gradient(180deg, rgba(232,206,77,1) 0%, rgba(204,111,0,1) 100%);
+    width: 300px;
+    height: 400px;
+
+}
+
+.container-input{
+    width: 250px;
+    
+}
+
+.input-email{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-senha{
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    height: 40px;
+
+    background-color: rgba(0, 0, 0, 0.062);
+    border: white 1px solid;
+
+    border-radius: 10px;  
+
+    padding: 0 0 0 10px;
+
+    transition: .3s ease-out;
+
+    margin: 10px 0;
+}
+
+.input:focus{
+    outline-style:outset;
+    height: 45px;
+    outline-color: rgb(255, 94, 0);
+}
+
+::placeholder{
+    color: black;
+}
+
+.button-login{
+    width: 250px;
+    height: 30px;
+
+    border-radius: 10px;
+    border: none;
+
+    cursor: pointer;
+
+    font-size: 20px;
+
+    box-shadow: 2px 2px 2px #a05800;
+    
+    transition: 0.3 ease-out;
+}
+
+.button-login:hover{
+    height: 35px;
+    background-color: #ffcb8c;
+}
+
+.remember{
+    position: absolute;
+    display: flex;
+    left: 30px;
+    bottom: 80px;
+}
+
+.remember>p{
+    font-size: 15px;
+    margin: 0 0 0 5px;
+}
+
+input[type="checkbox"]{
+    cursor: pointer;
+}
+
+.forgot{
+    position: absolute;
+    right: 30px;
+    bottom: 80px;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    transition: .3s ease-out;
+}
+
+.forgot:hover{
+    font-size: 16px;
+}

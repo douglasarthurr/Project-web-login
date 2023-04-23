@@ -1,12 +1,17 @@
-
+import React from 'react';
+import './app.css';
+import Login from './components/login/Login';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Ola mundo</h1>
+    <body className="App">
+      <header className="header">
+        <p className='title'>BEM VINDO!</p>
+        <p className='subtitle'>YourTime</p>
       </header>
-    </div>
+      <Login/>
+
+    </body>
   );
 }
 
