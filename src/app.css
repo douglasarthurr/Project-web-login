@@ -46,3 +46,37 @@ body{
     font-size: 30px;
     font-family: 'Dosis', sans-serif;
 }
+
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.div-sigin{
+    z-index: 10;
+    position: absolute;
+    background-color: #9966CC;
+    width: 300px;
+    height: 400px;
+    left: 360px;
+    cursor: pointer;
+    transition: 1s ease;
+}
+
+.div-sigin-moved {
+    transform: translateX(300px);
+}
+
+.text-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+}
