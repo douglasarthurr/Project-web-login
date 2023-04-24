@@ -20,12 +20,13 @@ function App() {
       </header>
 
       
-
-      <div className='container'>
-        <Login />
-        <Sigin />
-        <div className={`div-sigin ${isMoved ? 'div-sigin-moved' : ''}`} onClick={handleClick}>
-          <p className='text-div'>{text}</p>
+      <div className='container-divs'>
+        <div className='divs'>
+          <Login />
+          <Sigin />
+          <div className={`div-sigin ${isMoved ? 'div-sigin-moved' : ''}`} onClick={handleClick}>
+            <p className='text-div'>{text}</p>
+          </div>
         </div>
       </div>
     </body>
